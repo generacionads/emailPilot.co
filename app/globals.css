@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Paleta de Colores */
+  --color-background: #F9F9F6;
+  --color-foreground: #121212;
+  
+  --color-primary: #00856F;    
+  --color-secondary: #4A5568;  
+  --color-accent: #1E293B;     
+
+/* Escala Tipográfica */
+  
+  /* Body Base: 16px */
+  --text-base: 1rem;          
+  
+  /* Small: 14px */
+  --text-sm: 0.875rem;        
+  
+  /* H3: 20px */
+  --text-lg: 1.25rem;         
+  
+  /* H2: 24px */
+  --text-xl: 1.5rem;          
+  
+  /* H1 Mobile: 29px */
+  --text-2xl: 1.8125rem;       
+  
+  /* H1 Desktop: 48px */
+  --text-3xl: 3rem;           
+
+  /* Tipografías */
+  --font-fractul: "fractul-variable", sans-serif;
+  --font-raleway: "raleway", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-raleway);
+}
