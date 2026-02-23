@@ -65,7 +65,7 @@ export default function RevenueChart() {
       >
         
         <h2 className="font-display text-2xl md:text-4xl font-extrabold text-center text-foreground mb-8 md:mb-12 leading-tight">
-          Attributed Revenue: Before <br/> vs After Email Profit
+          Attributed Revenue: Before <br/> vs After Email Pilot
         </h2>
 
         {/* VERSIÓN DESKTOP (Barras Verticales + Hover) */}
